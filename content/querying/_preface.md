@@ -1,4 +1,4 @@
-<span class="comment" data-author="mvs">Maybe change the title to "Querying a heterogeneous Web?</span>
+<span class="comment" data-author="mvs">Maybe change the title to "Querying a heterogeneous Web"?</span>
 
 In this chapter, we focus on the third challenge of this PhD: "The Web is highly *heterogeneous*".
 In order to query over such a highly heterogeneous Web,
