@@ -1,3 +1,5 @@
+<span class="comment" data-author="mvs">Now that I'm reading this, I propose to switch ch 4 and 5. This chapter is really more about the publishing side of things, and actually contributes to the heterogeneity problem ch 4 uses.</span>
+
 The challenge that is handled in this chapter is:
 "Publishing *evolving* data via a *queryable interface* is costly."
 While the previous chapter focused on querying heterogeneous sources on the Web containing *static* knowledge graphs,

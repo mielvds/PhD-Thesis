@@ -11,7 +11,7 @@ The social capabilities of humans are however *much more evolved* than most othe
 For example, [humans are one of the only animals that have clearly visible eye whites](https://pursuit.unimelb.edu.au/articles/why-we-show-the-whites-of-our-eyes).
 This allows people to see what other people are looking at,
 which simplifies *collaborative* tasks.
-Furthermore, [*theory of mind*](https://www.sciencedirect.com/topics/neuroscience/theory-of-mind) —the ability to understand that others have different perspectives—, [is much more pronounced in humans than other animals](https://mitpress.universitypressscholarship.com/view/10.7551/mitpress/9780262016056.001.0001/upso-9780262016056), which also strengthens our ability to *collaborate*.
+Furthermore, [*theory of mind*](https://www.sciencedirect.com/topics/neuroscience/theory-of-mind) —the ability to understand that others have different perspectives<del class="comment" data-author="mvs">—</del>, [is much more pronounced in humans than other animals](https://mitpress.universitypressscholarship.com/view/10.7551/mitpress/9780262016056.001.0001/upso-9780262016056), which also strengthens our ability to *collaborate*.
 While our collaborative capabilities were initially limited to physical tasks,
 the invention of *language* and *writing* allowed us to share *knowledge* with each other.
 
@@ -36,6 +36,7 @@ With the Web, bandwidth for knowledge sharing has become nearly unlimited,
 as knowledge no longer has to go through a few large radio or tv stations,
 but can now be shared over a virtually unlimited amount of Web pages,
 which leads to a more *social* human species.
+<span class="comment" data-author="mvs">The last part might go a bit too far :) (we've always been quite social)</span>
 
 #### Impact of the Web
 
@@ -58,7 +59,10 @@ Furthermore, it has [impacted politics](https://ieeexplore.ieee.org/document/826
 and even [caused oppressive regimes to be overthrown](https://www.mic.com/articles/10642/twitter-revolution-how-the-arab-spring-was-helped-by-social-media).
 Next to that, it is also significantly [disrupting businesses models that have been around since the industrial revolution, and creating new ones](https://stratechery.com/2015/airbnb-and-the-internet-revolution/).
 
+<span class="comment" data-author="mvs">Consider merging these first two subsections.</span>
+
 #### Knowledge Graphs
+<span class="comment" data-author="mvs">While I love the intor above, not sure how relevant this all is.</span>
 
 Even though the Web has only existed for a brief window of time,
 it has already made a significant impact on world for the better.
@@ -73,12 +77,13 @@ In order for this dream to become a reality,
 the Web had to become *machine-readable*.
 This Web extension is typically referred to as the *Semantic Web*.
 
-Now —almost twenty years later—, several standards and technologies have been developed to make this dream a reality,
+Now —almost twenty years later<del class="comment" data-author="mvs">-</del>, several standards and technologies have been developed to make this dream a reality.
 [In 2013, more than four million Web domains were already using these technologies](http://iswc2013.semanticweb.org/content/keynote-ramanathan-v-guha.html).
 Using these Semantic Web technologies, so-called *knowledge graphs* are being constructed by many major companies world-wide,
 such as [Google](https://developers.google.com/knowledge-graph/) and [Microsoft](https://developer.microsoft.com/en-us/graph/).
 These knowledge graphs are being used to support tasks that were part of Tim Berners-Lee's original vision,
 such as managing day-to-day tasks with the [Google Now assistant](https://www.google.com/intl/nl/landing/now/).
+<span class="comment" data-author="mvs">It's not very clear what knowledge graphs are at this point. I think you need to mention that they are colllections of structured information (from the Web) organized like a graph.</span>
 
 The standard for modeling knowledge graphs is the [Resource Description Framework (RDF)](cite:cites spec:rdf).
 Fundamentally, it is based around the concept of *triples* that are used to make statements about *things*.
@@ -179,6 +184,7 @@ which is why this is of important factor within my research.
 Specifically, I focus on supporting knowledge graphs *on the Web*,
 instead of only being available behind closed doors,
 so that they are available for everyone.
+<span class="comment" data-author="mvs">I find this section too much argumentation and way too less about what decentralization actually is, how it's realized technologically, and what it would mean for the Web/Knowledge graphs.</span>
 
 ### Research Question
 {:#introduction-research-question}
@@ -221,7 +227,7 @@ related to this research question:
 {:#introduction-outline}
 
 Corresponding to my four research challenges,
-this thesis is based on the following four peer-reviewed publications:
+this thesis is based <span class="comment" data-author="mvs">bundles?</span> on the following four peer-reviewed publications:
 
 * Ruben Taelman et al. [Generating Public Transport Data based on Population Distributions for RDF Benchmarking](https://www.rubensworks.net/raw/publications/2018/podigg.pdf).
     <br />In: *In Semantic Web Journal*. IOS Press, 2019.

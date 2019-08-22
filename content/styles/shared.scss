@@ -37,6 +37,36 @@ del.comment {
   }
 }
 
+.comment .about {
+  &, & * {
+    color: red !important;
+  }
+
+  font-style: italic;
+  &:before {
+    content: "[";
+  }
+  &[data-author]:before {
+    content: "[" attr(data-author) ": ";
+  }
+  &:after {
+    content: "]";
+  }
+}
+
+ins.comment {
+  text-decoration: none;
+  &, & * {
+    color: green !important;
+  }
+  &:before, &[data-author]:before, &:after {
+    content: "";
+  }
+  &[data-author]:after {
+    content: " (" attr(data-author) ")";
+  }
+}
+
 .spelling {
   text-decoration: underline wavy red;
 }

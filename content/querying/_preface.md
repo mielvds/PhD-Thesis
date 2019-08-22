@@ -1,3 +1,5 @@
+<span class="comment" data-author="mvs">Maybe change the title to "Querying a heterogeneous Web?</span>
+
 In this chapter, we focus on the third challenge of this PhD: "The Web is highly *heterogeneous*".
 In order to query over such a highly heterogeneous Web,
 a query engine is needed that is able to handle various kinds of interfaces on the Web.

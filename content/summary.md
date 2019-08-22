@@ -6,23 +6,25 @@ which has lead to major transformations of our society.
 Initially, information on the Web was targeted at humans,
 and machines had a difficult time understanding information on the Web
 in the same way as humans can.
-This hindered *intelligent agents* to perform certain tasks autonomously,
+This hindered *intelligent agents* to perform certain tasks autonomously<span class="comment" data-author="mvs">Why are intelligent important? Why do we need them?</span>,
 such as finding all stores that sell rice in the current area,
 or determining the time to leave for catching your flight on time based on the current traffic and weather conditions.
 To enable such intelligent agents, researchers have been investigating technologies and introducing standards
 for making the Web understandable for machines.
-In the recent years, *knowledge graphs* are being built based on these technologies
-to support intelligent agents such as Siri and Google Now to perform these tasks.
+In the recent years, <span class="rephrase" data-author="mvs">*knowledge graphs* are being built based on these technologies
+to support intelligent agents such as Siri and Google Now to perform these tasks</span>.
 
 Most research on knowledge graphs has been focused on *static* data.
-There is however a huge amount of *evolving* data available,
+<ins class="comment" data-author="mvs">However, </ins><del>T</del>here is <del class="comment" data-author="mvs">however</del> a huge amount of *evolving* data available <ins></ins>,
 such as traffic events from highway sensors or continuous heart rate measurements.
 As there is a lot of value in evolving knowledge,
-it is important to *store* this information in *evolving knowledge graphs*,
+<span class="comment" data-author="mvs">What is the value exactly? Example?</span>
+<del class="comment" data-author="mvs">it is important to</del><ins class="comment" data-author="mvs">the primary focus of my research is to</ins> *store* this information in *evolving knowledge graphs*,
 and to make it *searchable*.
-As such, this is the primary focus of my research.
+<del class="comment" data-author="mvs">As such, this is the primary focus of my research.</del>
 
 Just like the Web, knowledge graphs are continuously becoming more and more *centralized*,
+<span class="comment" data-author="mvs">Better to immediately explain what centralized means in this context: "...in the hands of a few large entities"</span>
 and only having limited availability for the public.
 This leads to information becoming increasingly more in the hands of a few large entities,
 which endangers the democratic and *decentralized* nature of the Web.
@@ -35,6 +37,7 @@ of information on the Web,
 in the form of knowledge graphs.
 
 To help solve the open problems of *evolving knowledge graphs*,
+<span class="comment" data-author="mvs">which open problems? Maybe start by explaining defining the scope, aka the four challenges. And also what update frequency you are aiming at (you can also tackle that by adding a personal definition of "evolving knowledge graph").</span>
 and to allow everyone use to them,
 **the goal of this PhD is to allow *evolving* knowledge graphs to be *stored* and *queried* on the *Web*.**
 To investigate this topic, I focus on four challenges related to this topic.
@@ -73,12 +76,14 @@ Concretely, query execution time is reduced at the cost of an increase in storag
 This cost is acceptable due to storage typically being cheap.
 
 In the third challenge, the *heterogeneous* nature of the Web is investigated.
+<span class="comment" data-author="mvs">I would rephrase the next sentence as the goal you set to deal with heterogeneity</span>
 Concretely, a query engine is designed that can query over various kinds of Web interfaces,
 based on different kinds of query algorithms.
-Such an engine is needed as existing engines typically focus on one specific interface or algorithm,
-which makes it difficult to compare different approaches with each other in a fair way.
+<span class="rephrase" data-author="mvs">Such an engine is needed as existing engines typically focus on one specific interface or algorithm,
+which makes it difficult to compare different approaches with each other in a fair way.</span>
 Furthermore, the engine is designed in a modular way,
 so that new interfaces and algorithms can be developed and plugged in flexibly.
+<span class="comment" data-author="mvs">You can mention the name Comunica :)</span>
 
 Finally, the last challenge ties everything together,
 and focuses on publishing evolving data on the Web via a queryable interface.
@@ -90,7 +95,7 @@ and non-expired data can be reused when other more volatile data expires.
 Results show that this approach achieves a lower server load compared to fully server-side continuous query engines,
 at the cost of an increase in execution time and bandwidth usage.
 
-Within these four challenges,
+<span class="rephrase" data-author="mvs">Within these four challenges,
 methods are designed to allow evolving knowledge graphs to be stored and queried
 in a Web-friendly way.
 Concretely, this can be done by storing evolving knowledge graphs in a system
@@ -98,7 +103,7 @@ based on the one designed for the second challenge.
 On top of this, a Web interface can be setup such as the one designed for the fourth challenge,
 which can then be queried client-side to reduce server load as seen in challenge three and four.
 All of this can then be evaluated using synthetic evolving knowledge graphs
-as generated with the algorithm from challenge one.
+as generated with the algorithm from challenge one.</span>
 
 While this PhD shows a way to store and query evolving knowledge graphs on the Web,
 there does not exist a single perfect way to achieve this,
